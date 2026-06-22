@@ -14,7 +14,7 @@ programa
             escreva("3 - Sair\n")
             escreva("Escolha uma opcao: ")
             leia(opcao)
-
+          //aqui acaba o menu 
             escolha (opcao)
             {
                 caso 1:
@@ -28,7 +28,7 @@ programa
                     leia(nota2)
 
                     media = (nota1 + nota2) / 2
-
+                 //variedades de escolhas 
                     escreva("\nAluno: ", nome)
                     escreva("\nMedia: ", media)
 
@@ -57,8 +57,9 @@ programa
                     pare
 
                 caso contrario:
-                    escreva("\nOpcao invalida!\n")
+                //aqui acaba o codigo 
+                   escreva("\nOpcao invalida!\n")
             }
         }
     }
-}
+}]
