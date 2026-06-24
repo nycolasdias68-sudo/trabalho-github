@@ -11,10 +11,10 @@ programa
 		enquanto (opcao != 3)
 		{
 			escreva("\n===== MENU =====\n")
-			escreva("1 - Calcular media\n")
-			escreva("2 - Sobre o sistema\n")
-			escreva("3 - Sair\n")
-			escreva("Escolha uma opcao: ")
+			escreva("1 - Calcular MÉDIA\n")
+			escreva("2 - Sobre o SISTEMA\n")
+			escreva("3 - SAIR\n")
+			escreva("Escolha uma das opções : ")
 			leia(opcao)
 
 			escolha (opcao)
@@ -29,7 +29,7 @@ programa
 
 					enquanto (nota1 < 0 ou nota1 > 10)
 					{
-						escreva("Nota invalida! Digite novamente: ")
+						escreva("Nota inválida!!! Digite novamente: ")
 						leia(nota1)
 					}
 
@@ -38,43 +38,43 @@ programa
 
 					enquanto (nota2 < 0 ou nota2 > 10)
 					{
-						escreva("Nota invalida! Digite novamente: ")
+						escreva("Nota inválida!!! Digite novamente: ")
 						leia(nota2)
 					}
 
 					media = (nota1 + nota2) / 2
 
 					escreva("\nAluno: ", nome)
-					escreva("\nMedia: ", media)
+					escreva("\nMédia: ", media)
 
 					se (media >= 7)
 					{
-						escreva("\nSituacao: APROVADO")
+						escreva("\nSituação: APROVADO")
 					}
 					senao se (media >= 5)
 					{
-						escreva("\nSituacao: RECUPERACAO")
+						escreva("\nSituaçaõ: RECUPERAÇÃO")
 					}
 					senao
 					{
-						escreva("\nSituacao: REPROVADO")
+						escreva("\nSituação: REPROVADO")
 					}
 
 					se (media >= 9)
 					{
-						escreva("\nConceito: A")
+						escreva("\nConceito:A")
 					}
 					senao se (media >= 7)
 					{
-						escreva("\nConceito: B")
+						escreva("\nConceito:B")
 					}
 					senao se (media >= 5)
 					{
-						escreva("\nConceito: C")
+						escreva("\nConceito:C")
 					}
 					senao
 					{
-						escreva("\nConceito: D")
+						escreva("\nConceito:D")
 					}
 
 					totalAlunos++
@@ -105,7 +105,7 @@ programa
 
 				caso contrario:
 
-					escreva("\nOpcao invalida!\n")
+					escreva("\nOpção inválida!\n")
 			}
 		}
 	}
