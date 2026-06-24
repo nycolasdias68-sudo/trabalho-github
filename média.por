@@ -9,10 +9,10 @@ programa
         enquanto (opcao != 3)
         {
             escreva("\n===== MENU =====\n")
-            escreva("1 - Calcular media\n")
+            escreva("1 - Calcular  sua média\n")
             escreva("2 - Sobre o sistema\n")
             escreva("3 - Sair\n")
-            escreva("Escolha uma opcao: ")
+            escreva("Escolha uma das opções a cima! ")
             leia(opcao)
           //aqui acaba o menu 
             escolha (opcao)
@@ -38,7 +38,7 @@ programa
                     }
                     senao se (media >= 5)
                     {
-                        escreva("\nSituacao: RECUPERACAO\n")
+                        escreva("\nSituacao: RECUPERAÇÃO\n")
                     }
                     senao
                     {
@@ -58,8 +58,8 @@ programa
 
                 caso contrario:
                 //aqui acaba o codigo 
-                   escreva("\nOpcao invalida!\n")
+                   escreva("\nOpção invalida!!! tente novamente\n")
             }
         }
     }
-}]
+}
